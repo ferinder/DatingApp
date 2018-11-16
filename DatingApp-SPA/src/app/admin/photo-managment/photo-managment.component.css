@@ -1,0 +1,14 @@
+.card-image-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+/*
+.card-image-wrapper:hover {
+  transform: scale(2,2);
+  z-index: 20;
+} */
+.card img {
+  transform: scale(1.0, 1.0);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+}
